@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,800;0,900;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="about-styles.css">
+   <!-- bootsrap icon link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="shortcut icon" type="x-icon" href="logo-white.png">
+  <title>Hike Horizon</title>
+</head>
+<body>
+  <!-- Top section of page containing logo and navigation -->
+  <!-- Logo -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo-white.png" alt="Hike Horizon Logo">
+      </a>
+    </div>    
+    <!-- Navigation menu -->
+
+    <!-- Beside topnav is a class name "open" which is not visible here because of the javascript but still in there: try to inspect in the browser -->
+    <nav class="topnav ">
+      <ul class="menu-list resize-animation-stopper">
+        <li><a href="index.html">home</a></li>
+        <!-- <li><a href="about.html">about</a></li> -->
+        <li><a href="checklist.html">checklist</a></li>
+        <li><a href="search.html">search</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      
+      <!-- The Bootstrap icons -->
+      <button>
+        <i class="bi bi-x-circle-fill"></i> <!-- Close/Exit Icon -->
+        <i class="bi bi-list"></i> <!-- Hamburger Menu Icon -->
+      </button>
+
+    </nav>
+  </header>
+     <!-- Middle of page containing content & button-->
+  <main class="home-content">
+    <h1>ABOUT<span class="adventure"> US</span></h1><br>
+      <p>Established in 2023 by a group of passionate outdoor enthusiasts, Hike Horizon's mission is to help empower fellow explorers like you with the tools and resources needed to take on the great outdoors and discover new adventures. With years of experience we know well the joys and perils of the wilderness, and wish to share our knowledge with others who desire to get out there.</p><br> 
+
+      <p>We have curated a range of comprehensive gear checklists tailored to your specific outdoor pursuits. Whether you're a beginner, a seasoned backpacking through hiker or weekend car camper, our checklists will help to ensure you have all the essential gear and equipment needed for a safe and enjoyable experience.</p><br>
+        
+      <p>In addition to our gear checklists, we offer a powerful search feature that allows you to easily find hiking trails and campsites near any location. With just a few clicks, you can discover hidden gems in your area or explore new destinations far and wide.</p><br>
+        
+      <p>Find the path that calls to you, lace up your boots, strap on your pack and join us! Adventure awaits. Get ready to navigate uncharted territories, check off breathtaking vistas from your bucket list and embark on unforgettable journeys. Let us be your compass in the world of outdoor exploration and guide you in pursuit of new horizons!</p>
+
+    <button class="learn-more-btn" onclick="window.location.href='search.html';">Hit The Trails</button>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p class="footer-content">CS50 2023 - HTML, CSS, Javascript - Problem Set: Homepage</p>
+  </footer> 
+
+  <script src="navbar.js"></script>
+</body>
+</html>
